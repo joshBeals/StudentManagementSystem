@@ -1,0 +1,127 @@
+/*Style for AdminPanel*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Maiandra Gd";
+	background: #C7CDCB;
+}
+header{
+	display: flex;
+	height: 80px;
+	background: white;
+	margin-bottom: 30px;
+}
+.logo{
+	flex: 1;
+	padding: 15px;
+	padding-left: 100px;
+	font-size: 30px;
+}
+.login-reg{
+	flex: 2;
+	padding: 15px;
+	text-align: center;
+	font-size: 20px;
+}
+.login-reg a{
+	margin-left: 100px;
+	text-decoration: none;
+	color: black;
+	transition: 200ms ease-in-out;
+}
+.login-reg a:hover{
+	color: grey;
+}
+#condition{
+	display: none;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.registration{
+	width: 500px;
+	background: white;
+	justify-content: center;
+	align-items: center;
+}
+.form-header{
+	width: 500px;
+	display: flex;
+	height: 80px;
+	background: #0A7E59;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+input{
+	margin: auto;
+	display: block;
+	margin-bottom: 30px;
+	width: 300px;
+	padding: 10px;
+	border-radius: 3px;
+	border: none;
+	border: 1px solid grey;
+}
+button{
+	margin: auto;
+	display: block;
+	padding: 10px 20px;
+	background: #0A7E59;
+	color: white;
+	margin-bottom: 30px;
+	border: none;
+	border-radius: 3px;
+}
+#a{
+	color: white;
+	text-decoration: none;
+}
+.show{
+	display: flex;
+}
+.hide{
+	display: none;
+}
+#allStudents{
+	flex: 0.5;
+	flex-basis: 800px;
+	justify-content: center;
+	align-items: center;
+}
+table{
+	flex: 1;
+	font-size: 20px;
+	text-align: left;
+	border: 1px solid #0A7E59;
+}
+th{
+	color: white;
+	font-weight: lighter;
+	background: #0A7E59;
+	box-sizing: border-box;
+	padding: 25px 10px;
+}
+td{
+	text-align: left;
+	box-sizing: border-box;
+	padding: 10px;
+	background: white;
+}
+.buttons{
+	background: #0A7E59;
+	color: white;
+	box-sizing: border-box;
+	padding: 5px 10px;
+	border-radius: 3px;
+}
+td a{
+	text-decoration: none;
+}
+.buttons:last-of-type{
+	background: #D04A35;
+}
